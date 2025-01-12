@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html,body{
+html,
+body {
     height: 100vh;
     width: 100vw;
-   
+
 }
 
-body{
+body {
     height: 98vh;
     width: 98vw;
     background-image: url(../imagens/fundo-madeira.jpg);
@@ -22,13 +23,13 @@ body{
     background-attachment: fixed;
 }
 
-main{
+main {
     height: 100vh;
     position: relative;
-    
+
 }
 
-#telefone{
+#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +42,7 @@ main{
     background-size: 285px;
 }
 
-#tela{
+#tela {
     position: relative;
     top: 73px;
     left: 20px;
@@ -50,16 +51,12 @@ main{
 }
 
 
-#redes-sociais{
+#redes-sociais {
     text-align: right;
-   
+
 }
 
-#redes-sociais-2{
-    
-}
-
-#redes-sociais img{
+#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
@@ -69,7 +66,7 @@ main{
 
 
 
-#redes-sociais img:hover{
+#redes-sociais img:hover {
     border: 2px solid white;
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px black;
@@ -77,28 +74,30 @@ main{
 
 }
 
-@media (max-width: 480px){
-    
-    main{
+@media (max-width: 480px) {
+
+    main {
         width: 420px;
     }
 
-    #redes-sociais{
+    #redes-sociais {
         display: flex;
-       
+
     }
-    #redes-sociais-2{
+
+    #redes-sociais-2 {
         display: flex;
         flex-direction: row;
     }
 
-    #tela{
+    #tela {
         top: 60px;
         left: 16px;
         width: 203px;
         height: 358px;
     }
-    #telefone{
+
+    #telefone {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -36%);
