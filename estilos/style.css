@@ -74,6 +74,27 @@ main {
 
 }
 
+@media (min-width: 481px) and (max-width: 900px) {
+
+    main {
+        width: 98vw;
+    }
+
+
+    #tela {
+        top: 57px;
+        left: 15px;
+        width: 192px;
+        height: 338px;
+    }
+
+    #telefone {
+        height: 447px;
+        width: 221px;
+        background-size: 222px;
+    }
+}
+
 @media (max-width: 480px) {
 
     main {
@@ -106,3 +127,4 @@ main {
         background-size: 336px;
     }
 }
+
