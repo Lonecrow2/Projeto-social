@@ -91,18 +91,18 @@ main {
     }
 
     #tela {
-        top: 60px;
-        left: 16px;
-        width: 203px;
-        height: 358px;
+        top: 86px;
+        left: 23px;
+        width: 290px;
+        height: 511px;
     }
 
     #telefone {
-        top: 50%;
+        top: 52%;
         left: 50%;
-        transform: translate(-50%, -36%);
-        height: 471px;
-        width: 233px;
-        background-size: 235px;
+        transform: translate(-50%, -50%);
+        height: 676px;
+        width: 335px;
+        background-size: 336px;
     }
 }
